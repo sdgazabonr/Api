@@ -10,7 +10,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": "http://localhost:57409/casas"
 			},
 			"response": []
 		},
@@ -19,7 +19,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": "localhost:57409/paquetes"
 			},
 			"response": []
 		}

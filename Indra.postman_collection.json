@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "9bbd6288-812c-4bf0-af49-05c98cdbec04",
+		"name": "Indra",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ejercicio1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lstCasas\": [1, 1, 1, 0, 1, 1, 1, 1],\r\n    \"dias\": 2\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:57409/casas"
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lstPaquetes\": [10, 60, 40, 35, 20],\r\n    \"tamanioCamion\": 90\r\n\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:57409/paquetes"
+			},
+			"response": []
+		}
+	]
+}

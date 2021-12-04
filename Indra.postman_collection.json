@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "607e4dcc-62e9-4f00-ad68-b9a569d16482",
+		"name": "Indra",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ejercicio1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
